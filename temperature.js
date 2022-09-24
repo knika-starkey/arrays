@@ -1,4 +1,9 @@
-let temp = [12, 5, -3, -9, 2, 15, 0];
+let temp = [];
+let n = prompt("Скільки днів ви хочете?");
+for (let i = 0; i < n; i++) {
+  temp[i] = Math.floor(Math.random() * (20 - -20 + 1)) + -20;
+}
+console.log(temp);
 let hotdays = 0;
 let colddays = 0;
 let sum = 0;
