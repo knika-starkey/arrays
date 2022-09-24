@@ -18,4 +18,4 @@ for (let i = 0; i < temp.length; i++) {
   }
 }
 alert(`У цьому місяці ${hotdays} теплих днів та ${colddays} холодних днів`);
-alert(`Середня температура дорівнює ${sum / temp.length}`);
+alert(`Середня температура дорівнює ${Math.round(sum / temp.length)}`);
